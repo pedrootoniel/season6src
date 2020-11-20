@@ -1,0 +1,53 @@
+﻿  stdafx.cpp
+  AllowableIpList.cpp
+  ArcaBattle.cpp
+  BadSyntax.cpp
+  CashShop.cpp
+  CastleDBSet.cpp
+  CharacterManager.cpp
+  CommandManager.cpp
+  CriticalSection.cpp
+  CSProtocol.cpp
+  DataServer.cpp
+  DataServerProtocol.cpp
+DataServerProtocol.cpp(3953): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+DataServerProtocol.cpp(3973): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+DataServerProtocol.cpp(3983): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+  ESProtocol.cpp
+  EventInventory.cpp
+  GensSystem.cpp
+  GoldenArcher.cpp
+  GuildManager.cpp
+  GuildMatching.cpp
+  Helper.cpp
+  Log.cpp
+  LuckyCoin.cpp
+  Compiling...
+  LuckyItem.cpp
+  MasterSkillTree.cpp
+  MemScript.cpp
+  MiniDump.cpp
+  MuRummy.cpp
+  MuunSystem.cpp
+  NpcTalk.cpp
+  PartyMatching.cpp
+  PcPoint.cpp
+  PentagramSystem.cpp
+  PersonalShop.cpp
+  Protect.cpp
+  QueryManager.cpp
+  Quest.cpp
+  QuestWorld.cpp
+  Queue.cpp
+  ServerDisplayer.cpp
+  ServerManager.cpp
+  SocketManager.cpp
+  Util.cpp
+  Compiling...
+  Warehouse.cpp
+  Generating code
+  Finished generating code
+  DataServer.vcxproj -> E:\thoung\Server 6.4.0 - Backup\eMU\DataServer\Release\DataServer_EX603\DataServer.exe

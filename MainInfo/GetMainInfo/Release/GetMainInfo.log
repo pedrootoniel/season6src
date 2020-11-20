@@ -1,0 +1,31 @@
+﻿  stdafx.cpp
+  CCRC32.Cpp
+  CSmithItem.cpp
+  CustomFog.cpp
+CustomFog.cpp(66): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+CustomFog.cpp(68): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+CustomFog.cpp(70): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+  CustomItem.cpp
+  CustomJewel.cpp
+  CustomMessage.cpp
+  CustomMonster.cpp
+  CustomPet.cpp
+  CustomRFGloves.cpp
+  CustomSmoke.cpp
+  CustomSocket.cpp
+  CustomTitle.cpp
+  CustomWeapons.cpp
+  CustomWing.cpp
+  CustomWIngEffect.cpp
+  DynamicEffect.cpp
+  EventTimerText.cpp
+  GetMainInfo.cpp
+  ItemOption.cpp
+  ItemPrice.cpp
+  Compiling...
+  MemScript.cpp
+  ModelEffect.cpp
+  MonsterNameColor.cpp
+  Generating code
+  Finished generating code
+  GetMainInfo.vcxproj -> F:\thoung\Server 6.4.0 - Backup\MainInfo\Release\GetMainInfo.exe

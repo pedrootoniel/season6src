@@ -1,0 +1,548 @@
+﻿  stdafx.cpp
+f:\thoung\server 6.4.0 - backup\emu\gameserver\gameserver\Protect.h(166): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(85) : see declaration of 'swprintf'
+  CCRC32.Cpp
+  Math.cpp
+  380ItemOption.cpp
+  380ItemType.cpp
+  AccSecurity.cpp
+  AntiFloodSystem.cpp
+AntiFloodSystem.cpp(14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+AntiFloodSystem.cpp(141): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+AntiFloodSystem.cpp(173): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+AntiFloodSystem.cpp(185): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+  ArcaBattle.cpp
+ArcaBattle.cpp(854): warning C4018: '>=' : signed/unsigned mismatch
+ArcaBattle.cpp(876): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+ArcaBattle.cpp(877): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+  Attack.cpp
+  PVS_STUDIO FIX 02
+Attack.cpp(1898): warning C4081: expected 'newline'; found ';'
+  BackDoor.cpp
+BackDoor.cpp(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+BackDoor.cpp(87): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+BackDoor.cpp(88): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+BackDoor.cpp(89): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+BackDoor.cpp(93): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+BackDoor.cpp(99): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+BackDoor.cpp(108): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+BackDoor.cpp(117): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+BackDoor.cpp(134): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+  BattleGround.cpp
+  BattleSoccer.cpp
+  BattleSoccerManager.cpp
+  BloodCastle.cpp
+  BonusManager.cpp
+  BotAlchemist.cpp
+BotAlchemist.cpp(87): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+BotAlchemist.cpp(262): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+BotAlchemist.cpp(392): warning C4018: '<' : signed/unsigned mismatch
+BotAlchemist.cpp(401): warning C4018: '<' : signed/unsigned mismatch
+BotAlchemist.cpp(410): warning C4018: '<' : signed/unsigned mismatch
+BotAlchemist.cpp(419): warning C4018: '<' : signed/unsigned mismatch
+  BotBuffer.cpp
+BotBuffer.cpp(107): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+BotBuffer.cpp(265): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+BotBuffer.cpp(530): warning C4018: '<' : signed/unsigned mismatch
+BotBuffer.cpp(539): warning C4018: '<' : signed/unsigned mismatch
+BotBuffer.cpp(548): warning C4018: '<' : signed/unsigned mismatch
+BotBuffer.cpp(557): warning C4018: '<' : signed/unsigned mismatch
+  BotTrade.cpp
+f:\thoung\server 6.4.0 - backup\emu\gameserver\gameserver\readscript.h(106): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+f:\thoung\server 6.4.0 - backup\emu\gameserver\gameserver\readscript.h(239): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+BotTrade.cpp(417): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+BotTrade.cpp(481): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+BotTrade.cpp(675): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+BotTrade.cpp(1058): warning C4018: '<' : signed/unsigned mismatch
+BotTrade.cpp(1067): warning C4018: '<' : signed/unsigned mismatch
+BotTrade.cpp(1076): warning C4018: '<' : signed/unsigned mismatch
+BotTrade.cpp(1085): warning C4018: '<' : signed/unsigned mismatch
+  BuyVip.cpp
+BuyVip.cpp(65): warning C4018: '<' : signed/unsigned mismatch
+BuyVip.cpp(73): warning C4018: '<' : signed/unsigned mismatch
+BuyVip.cpp(81): warning C4018: '<' : signed/unsigned mismatch
+BuyVip.cpp(118): warning C4018: '<' : signed/unsigned mismatch
+BuyVip.cpp(145): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+BuyVip.cpp(146): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+BuyVip.cpp(147): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+  CannonTower.cpp
+  CashShop.cpp
+  Compiling...
+  CastleDeep.cpp
+  CastleSiege.cpp
+  CastleSiegeCrown.cpp
+  CastleSiegeCrownSwitch.cpp
+  CastleSiegeSync.cpp
+  CastleSiegeWeapon.cpp
+  ChangeClass.cpp
+ChangeClass.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+ChangeClass.cpp(71): warning C4018: '<' : signed/unsigned mismatch
+ChangeClass.cpp(79): warning C4018: '<' : signed/unsigned mismatch
+ChangeClass.cpp(87): warning C4018: '<' : signed/unsigned mismatch
+  ChaosBox.cpp
+  PVS_STUDIO FIX 03
+ChaosBox.cpp(738): warning C4081: expected 'newline'; found ';'
+  ChaosBoxManager.cpp
+ChaosBoxManager.cpp(54): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+ChaosBoxManager.cpp(59): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+ChaosBoxManager.cpp(94): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+ChaosBoxManager.cpp(156): warning C4018: '<' : signed/unsigned mismatch
+ChaosBoxManager.cpp(167): warning C4018: '>' : signed/unsigned mismatch
+ChaosBoxManager.cpp(227): warning C4244: '=' : conversion from 'long' to 'BYTE', possible loss of data
+ChaosBoxManager.cpp(248): warning C4244: '=' : conversion from 'long' to 'BYTE', possible loss of data
+ChaosBoxManager.cpp(448): warning C4244: '+=' : conversion from 'float' to 'BYTE', possible loss of data
+ChaosBoxManager.cpp(496): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+ChaosBoxManager.cpp(516): warning C4018: '<' : signed/unsigned mismatch
+ChaosBoxManager.cpp(523): warning C4018: '<' : signed/unsigned mismatch
+ChaosBoxManager.cpp(535): warning C4018: '<' : signed/unsigned mismatch
+ChaosBoxManager.cpp(553): warning C4018: '<' : signed/unsigned mismatch
+ChaosBoxManager.cpp(601): warning C4018: '<' : signed/unsigned mismatch
+  ChaosCastle.cpp
+  ComboSkill.cpp
+  ComboSkillData.cpp
+  CommandManager.cpp
+CommandManager.cpp(361): warning C4018: '<' : signed/unsigned mismatch
+CommandManager.cpp(370): warning C4018: '<' : signed/unsigned mismatch
+CommandManager.cpp(379): warning C4018: '<' : signed/unsigned mismatch
+CommandManager.cpp(388): warning C4018: '<' : signed/unsigned mismatch
+CommandManager.cpp(2723): warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+  Connection.cpp
+  CriticalSection.cpp
+  Crywolf.cpp
+  CrywolfAltar.cpp
+  CrywolfObjInfo.cpp
+  CrywolfStateTimeInfo.cpp
+  CrywolfStatue.cpp
+  Compiling...
+  CrywolfSync.cpp
+  CrywolfUtil.cpp
+  CSProtocol.cpp
+  CustomArena.cpp
+  CustomAttack.cpp
+CustomAttack.cpp(556): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+  CustomDeathMessage.cpp
+  CustomEventDrop.cpp
+  CustomJewel.cpp
+  CustomMonster.cpp
+  CustomMove.cpp
+  CustomPet.cpp
+  CustomQuiz.cpp
+CustomQuiz.cpp(231): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+CustomQuiz.cpp(412): warning C4996: '_strlwr': This function or variable may be unsafe. Consider using _strlwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(164) : see declaration of '_strlwr'
+  CustomStore.cpp
+  CustomTitle.cpp
+CustomTitle.cpp(310): warning C4018: '<' : signed/unsigned mismatch
+  CustomWing.cpp
+  DarkSpirit.cpp
+  DefaultClassInfo.cpp
+  DevilSquare.cpp
+  DoubleGoer.cpp
+  DSProtocol.cpp
+DSProtocol.cpp(4703): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+  Compiling...
+  Duel.cpp
+  Effect.cpp
+  EffectManager.cpp
+  ESProtocol.cpp
+  PVS_STUDIO FIX 06
+ESProtocol.cpp(280): warning C4081: expected 'newline'; found ';'
+  PVS_STUDIO FIX 07
+ESProtocol.cpp(438): warning C4081: expected 'newline'; found ';'
+  PVS_STUDIO FIX 08
+ESProtocol.cpp(566): warning C4081: expected 'newline'; found ';'
+  EventInventory.cpp
+  EventKillAll.cpp
+  EventPvP.cpp
+  EventTimer.cpp
+EventTimer.cpp(92): warning C4018: '<' : signed/unsigned mismatch
+  ExperienceTable.cpp
+  ExUtilits.cpp
+ExUtilits.cpp(8): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+ExUtilits.cpp(21): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+ExUtilits.cpp(97): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+ExUtilits.cpp(107): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+ExUtilits.cpp(115): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+  FakeOnline.cpp
+f:\thoung\server 6.4.0 - backup\emu\gameserver\gameserver\readscript.h(106): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+f:\thoung\server 6.4.0 - backup\emu\gameserver\gameserver\readscript.h(239): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+  Filter.cpp
+  Fruit.cpp
+  FruitSystem.cpp
+  GameMain.cpp
+GameMain.cpp(69): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  GameMaster.cpp
+  GameServer.cpp
+  Gate.cpp
+  GensSystem.cpp
+  GiftCode.cpp
+GiftCode.cpp(133): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+  Compiling...
+  GoldenArcher.cpp
+  GuardianStatue.cpp
+  Guild.cpp
+  GuildClass.cpp
+  GuildMatching.cpp
+  HackCheck.cpp
+  HackPacketCheck.cpp
+  happyhttp.cpp
+happyhttp.cpp(229): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_vsnprintf'
+happyhttp.cpp(380): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+happyhttp.cpp(404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+  HeadsTails.cpp
+HeadsTails.cpp(27): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+HeadsTails.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+HeadsTails.cpp(33): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+HeadsTails.cpp(35): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  Helper.cpp
+  HwidManager.cpp
+  IllusionTemple.cpp
+  ImperialGuardian.cpp
+  InvasionManager.cpp
+  InventoryEquipment.cpp
+  IpManager.cpp
+  Item.cpp
+Item.cpp(132): warning C4305: 'return' : truncation from 'int' to 'bool'
+Item.cpp(150): warning C4305: 'return' : truncation from 'int' to 'bool'
+Item.cpp(161): warning C4305: 'return' : truncation from 'int' to 'bool'
+Item.cpp(172): warning C4305: 'return' : truncation from 'int' to 'bool'
+Item.cpp(191): warning C4305: 'return' : truncation from 'int' to 'bool'
+Item.cpp(201): warning C4305: 'return' : truncation from 'int' to 'bool'
+  ItemBag.cpp
+  ItemBagEx.cpp
+  ItemBagManager.cpp
+  Compiling...
+  ItemDrop.cpp
+  ItemManager.cpp
+  ItemMove.cpp
+  ItemOption.cpp
+  ItemOptionRate.cpp
+  ItemStack.cpp
+  ItemValue.cpp
+ItemValue.cpp(106): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+  JewelMix.cpp
+  JewelOfHarmonyOption.cpp
+  JewelOfHarmonyType.cpp
+  JewelsBank.cpp
+  JSProtocol.cpp
+  Kalima.cpp
+Kalima.cpp(366): warning C4018: '>=' : signed/unsigned mismatch
+Kalima.cpp(482): warning C4018: '>=' : signed/unsigned mismatch
+  Kanturu.cpp
+  KanturuBattleOfMaya.cpp
+  KanturuBattleOfNightmare.cpp
+  KanturuBattleStanby.cpp
+  KanturuBattleUserMng.cpp
+  KanturuEntranceNPC.cpp
+  KanturuMaya.cpp
+  Compiling...
+  KanturuMonsterMng.cpp
+  KanturuObjInfo.cpp
+  KanturuStateInfo.cpp
+  KanturuTowerOfRefinement.cpp
+  KanturuUtil.cpp
+  KillMonsterReward.cpp
+  LifeStone.cpp
+  Log.cpp
+  LogToFile.cpp
+LogToFile.cpp(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+LogToFile.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+LogToFile.cpp(37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+LogToFile.cpp(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+LogToFile.cpp(47): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+LogToFile.cpp(80): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+LogToFile.cpp(90): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+  LuckyCoin.cpp
+  LuckyItem.cpp
+  LuckySpin.cpp
+LuckySpin.cpp(145): warning C4018: '<' : signed/unsigned mismatch
+LuckySpin.cpp(177): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+LuckySpin.cpp(180): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+  Map.cpp
+  MapItem.cpp
+  MapManager.cpp
+  MapPath.cpp
+  MapServerManager.cpp
+  Marry.cpp
+Marry.cpp(182): warning C4018: '>' : signed/unsigned mismatch
+Marry.cpp(182): warning C4018: '>' : signed/unsigned mismatch
+Marry.cpp(283): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+Marry.cpp(294): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+Marry.cpp(306): warning C4244: '=' : conversion from 'short' to 'BYTE', possible loss of data
+Marry.cpp(307): warning C4244: '=' : conversion from 'short' to 'BYTE', possible loss of data
+Marry.cpp(312): warning C4244: '=' : conversion from 'short' to 'BYTE', possible loss of data
+Marry.cpp(313): warning C4244: '=' : conversion from 'short' to 'BYTE', possible loss of data
+Marry.cpp(235): warning C4101: 'info' : unreferenced local variable
+Marry.cpp(369): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+Marry.cpp(373): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+  MasterSkillTree.cpp
+  MemoryAllocator.cpp
+  Compiling...
+  MemoryAllocatorInfo.cpp
+  MemScript.cpp
+  Mercenary.cpp
+  Message.cpp
+  MiniDump.cpp
+  MiniMap.cpp
+  MiningSystem.cpp
+  Monster.cpp
+  MonsterAI.cpp
+  MonsterAIAgro.cpp
+  MonsterAIAutomata.cpp
+  MonsterAIAutomataInfo.cpp
+  MonsterAIElement.cpp
+  MonsterAIElementInfo.cpp
+  MonsterAIGroup.cpp
+  MonsterAIGroupMember.cpp
+  MonsterAIMovePath.cpp
+  MonsterAIMovePathInfo.cpp
+  MonsterAIRule.cpp
+  MonsterAIRuleInfo.cpp
+  Compiling...
+  MonsterAIState.cpp
+  MonsterAIUnit.cpp
+  MonsterAIUnitInfo.cpp
+  MonsterAIUtil.cpp
+  MonsterManager.cpp
+  MonsterSetBase.cpp
+  MonsterSkillElement.cpp
+  MonsterSkillElementInfo.cpp
+  MonsterSkillElementOption.cpp
+  MonsterSkillInfo.cpp
+  MonsterSkillManager.cpp
+  MonsterSkillUnit.cpp
+  MonsterSkillUnitInfo.cpp
+  MossMerchant.cpp
+  Move.cpp
+  MoveSummon.cpp
+  MuRummy.cpp
+  MuunSystem.cpp
+  NewQuest.cpp
+NewQuest.cpp(39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+NewQuest.cpp(630): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+NewQuest.cpp(653): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+NewQuest.cpp(677): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+NewQuest.cpp(677): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+  NewsBoard.cpp
+NewsBoard.cpp(110): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+NewsBoard.cpp(111): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+NewsBoard.cpp(112): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+NewsBoard.cpp(136): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+NewsBoard.cpp(137): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+NewsBoard.cpp(138): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+NewsBoard.cpp(139): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+  Compiling...
+  Notice.cpp
+  NpcTalk.cpp
+  ObjectManager.cpp
+  OfflineMode.cpp
+  OnlineBonus.cpp
+OnlineBonus.cpp(78): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+  PacketManager.cpp
+  Party.cpp
+Party.cpp(278): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+Party.cpp(328): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+Party.cpp(367): warning C4018: '<' : signed/unsigned mismatch
+  PartyMatching.cpp
+  PartySearch.cpp
+PartySearch.cpp(140): warning C4805: '==' : unsafe mix of type 'BYTE' and type 'bool' in operation
+  Path.cpp
+  PcPoint.cpp
+  PentagramSystem.cpp
+  PersonalShop.cpp
+  Protocol.cpp
+Protocol.cpp(3757): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+Protocol.cpp(3758): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+Protocol.cpp(3784): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+Protocol.cpp(3785): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+Protocol.cpp(5605): warning C4018: '<' : signed/unsigned mismatch
+Protocol.cpp(5635): warning C4018: '<' : signed/unsigned mismatch
+Protocol.cpp(5700): warning C4018: '<' : signed/unsigned mismatch
+Protocol.cpp(5790): warning C4018: '<' : signed/unsigned mismatch
+  PVPZone.cpp
+  Quest.cpp
+  QuestObjective.cpp
+  QuestReward.cpp
+  QuestWorld.cpp
+  QuestWorldObjective.cpp
+  Compiling...
+  QuestWorldReward.cpp
+  Queue.cpp
+  QueueTimer.cpp
+  Raklion.cpp
+  RaklionBattleOfSelupan.cpp
+  RaklionBattleUser.cpp
+  RaklionBattleUserMng.cpp
+  RaklionObjInfo.cpp
+  RaklionSelupan.cpp
+  RaklionUtil.cpp
+  RandomManager.cpp
+  Ranking.cpp
+Ranking.cpp(28): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+Ranking.cpp(33): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+Ranking.cpp(44): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+Ranking.cpp(49): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+  Reconnect.cpp
+  ResetReward.cpp
+  ResetTable.cpp
+  RespawnLocation.cpp
+  RolltheDice.cpp
+RolltheDice.cpp(27): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+RolltheDice.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+RolltheDice.cpp(33): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+RolltheDice.cpp(37): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+RolltheDice.cpp(38): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+RolltheDice.cpp(39): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+RolltheDice.cpp(40): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+RolltheDice.cpp(41): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+RolltheDice.cpp(42): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+RolltheDice.cpp(43): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+RolltheDice.cpp(44): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+RolltheDice.cpp(45): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+RolltheDice.cpp(46): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+  LuckyNumber.cpp
+LuckyNumber.cpp(31): warning C4018: '<' : signed/unsigned mismatch
+LuckyNumber.cpp(40): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+LuckyNumber.cpp(56): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+LuckyNumber.cpp(76): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+LuckyNumber.cpp(103): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+LuckyNumber.cpp(137): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+LuckyNumber.cpp(170): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  ScheduleManager.cpp
+  SerialCheck.cpp
+  Compiling...
+  ServerDisplayer.cpp
+  ServerInfo.cpp
+  SetItemOption.cpp
+  SetItemType.cpp
+  sha1.cpp
+  Shop.cpp
+  ShopManager.cpp
+  ShopSearch.cpp
+ShopSearch.cpp(88): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+ShopSearch.cpp(89): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+  Skill.cpp
+  SkillHitBox.cpp
+  SkillManager.cpp
+  SmithItem.cpp
+f:\thoung\server 6.4.0 - backup\emu\gameserver\gameserver\readscript.h(106): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+f:\thoung\server 6.4.0 - backup\emu\gameserver\gameserver\readscript.h(239): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+  Smithy.cpp
+Smithy.cpp(256): warning C4018: '<' : signed/unsigned mismatch
+Smithy.cpp(509): warning C4018: '>' : signed/unsigned mismatch
+Smithy.cpp(552): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+Smithy.cpp(558): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+Smithy.cpp(558): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+Smithy.cpp(560): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+Smithy.cpp(560): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+  SocketItemOption.cpp
+  SocketItemType.cpp
+  SocketManager.cpp
+  SocketManagerUdp.cpp
+  SummonScroll.cpp
+  Survivor.cpp
+Survivor.cpp(352): warning C4018: '>' : signed/unsigned mismatch
+  TheGift.cpp
+TheGift.cpp(128): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+  Compiling...
+  Trade.cpp
+  TvTEvent.cpp
+TvTEvent.cpp(435): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+TvTEvent.cpp(435): warning C4244: 'argument' : conversion from 'short' to 'BYTE', possible loss of data
+  Union.cpp
+  UnionInfo.cpp
+  User.cpp
+  Simple kalima fix (test this!!!)
+User.cpp(2734): warning C4081: expected 'newline'; found ';'
+User.cpp(4783): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+  UserDieItemDrop.cpp
+UserDieItemDrop.cpp(144): warning C4018: '<' : signed/unsigned mismatch
+UserDieItemDrop.cpp(158): warning C4018: '>=' : signed/unsigned mismatch
+UserDieItemDrop.cpp(222): warning C4244: '=' : conversion from 'short' to 'BYTE', possible loss of data
+UserDieItemDrop.cpp(223): warning C4244: '=' : conversion from 'short' to 'BYTE', possible loss of data
+UserDieItemDrop.cpp(224): warning C4244: '=' : conversion from 'short' to 'BYTE', possible loss of data
+  Util.cpp
+Util.cpp(443): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+  Viewport.cpp
+  Warehouse.cpp
+  ZenDrop.cpp
+ZenDrop.cpp(87): warning C4018: '<' : signed/unsigned mismatch
+  pugixml.cpp
+     Creating library F:\thoung\Server 6.4.0 - Backup\eMU\GameServer\Release\GameServer_EX603CS\GameServer.lib and object F:\thoung\Server 6.4.0 - Backup\eMU\GameServer\Release\GameServer_EX603CS\GameServer.exp
+  Generating code
+f:\thoung\server 6.4.0 - backup\emu\gameserver\gameserver\newquest.cpp(654): warning C4789: destination of memory copy is too small
+f:\thoung\server 6.4.0 - backup\emu\gameserver\gameserver\botbuffer.cpp(512): warning C4715: 'CBotBuffer::TradeOpen' : not all control paths return a value
+f:\thoung\server 6.4.0 - backup\emu\gameserver\gameserver\util.cpp(450): warning C4789: destination of memory copy is too small
+f:\thoung\server 6.4.0 - backup\emu\gameserver\gameserver\tvtevent.cpp(563): warning C4715: 'CTvTEvent::CheckEnterEnabled' : not all control paths return a value
+f:\thoung\server 6.4.0 - backup\emu\gameserver\gameserver\survivor.cpp(418): warning C4700: uninitialized local variable 'pMsg' used
+f:\thoung\server 6.4.0 - backup\emu\gameserver\gameserver\eventkillall.cpp(220): warning C4715: 'CEventKillAll::CommandEventKillAll' : not all control paths return a value
+  Finished generating code
+  GameServer.vcxproj -> F:\thoung\Server 6.4.0 - Backup\eMU\GameServer\Release\GameServer_EX603CS\GameServer.exe

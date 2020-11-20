@@ -1,0 +1,34 @@
+﻿  stdafx.cpp
+  CCRC32.cpp
+  Connection.cpp
+  CriticalSection.cpp
+  FileCheck.cpp
+  FileMappingCheck.cpp
+  FileProtect.cpp
+  HackServerProtocol.cpp
+  LibraryCheck.cpp
+  HackCheck.cpp
+  HackClient.cpp
+  ListManager.cpp
+  DumpCheck.cpp
+  ExecutableCheck.cpp
+  Log.cpp
+  MacroCheck.cpp
+  Message.cpp
+  ProcessCheck.cpp
+  ProcessManager.cpp
+  ProcessQuery.cpp
+  Protect.cpp
+  Compiling...
+  SimpleModules.cpp
+  SplashScreen.cpp
+  ThreadCheck.cpp
+  Util.cpp
+  RegistryCheck.cpp
+  WindowCheck.cpp
+     Creating library F:\thoung\Server 6.4.0 - Backup\MHP\HackClient\Release\MHPClient.lib and object F:\thoung\Server 6.4.0 - Backup\MHP\HackClient\Release\MHPClient.exp
+  Generating code
+  Finished generating code
+detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(detours.obj)' or at 'F:\thoung\Server 6.4.0 - Backup\MHP\HackClient\Release\detours.pdb'; linking object as if no debug info
+detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(disasm.obj)' or at 'F:\thoung\Server 6.4.0 - Backup\MHP\HackClient\Release\detours.pdb'; linking object as if no debug info
+  HackClient.vcxproj -> F:\thoung\Server 6.4.0 - Backup\MHP\HackClient\Release\MHPClient.dll

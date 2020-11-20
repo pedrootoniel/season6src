@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  CCRC32.Cpp
+  GetClientInfo.cpp
+GetClientInfo.cpp(31): warning C4101: 'TempInfo' : unreferenced local variable
+  MemScript.cpp
+  Message.cpp
+  Generating code
+  Finished generating code
+  GetClientInfo.vcxproj -> F:\thoung\Server 6.4.0 - Backup\MHP\GetClientInfo\Release\GetClientInfo.exe

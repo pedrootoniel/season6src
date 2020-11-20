@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConnectServer", "ConnectServer\ConnectServer.vcxproj", "{206DE6CA-4B65-4027-B96D-69DBC02AEF53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release_EX401|x86 = Release_EX401|x86
+		Release_EX603|x86 = Release_EX603|x86
+		Release_EX803|x86 = Release_EX803|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{206DE6CA-4B65-4027-B96D-69DBC02AEF53}.Debug|x86.ActiveCfg = Debug|Win32
+		{206DE6CA-4B65-4027-B96D-69DBC02AEF53}.Debug|x86.Build.0 = Debug|Win32
+		{206DE6CA-4B65-4027-B96D-69DBC02AEF53}.Release_EX401|x86.ActiveCfg = Release_EX401|Win32
+		{206DE6CA-4B65-4027-B96D-69DBC02AEF53}.Release_EX401|x86.Build.0 = Release_EX401|Win32
+		{206DE6CA-4B65-4027-B96D-69DBC02AEF53}.Release_EX603|x86.ActiveCfg = Release_EX603|Win32
+		{206DE6CA-4B65-4027-B96D-69DBC02AEF53}.Release_EX603|x86.Build.0 = Release_EX603|Win32
+		{206DE6CA-4B65-4027-B96D-69DBC02AEF53}.Release_EX803|x86.ActiveCfg = Release_EX803|Win32
+		{206DE6CA-4B65-4027-B96D-69DBC02AEF53}.Release_EX803|x86.Build.0 = Release_EX803|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FF19925-6A30-4C32-BD9A-DAD83FAC091C}
+	EndGlobalSection
+EndGlobal

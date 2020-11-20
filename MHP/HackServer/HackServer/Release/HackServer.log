@@ -1,0 +1,35 @@
+﻿  stdafx.cpp
+  AntiFloodSystem.cpp
+AntiFloodSystem.cpp(15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+AntiFloodSystem.cpp(141): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+AntiFloodSystem.cpp(173): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+AntiFloodSystem.cpp(185): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+  Authenticate.cpp
+  BlackList.cpp
+  CCRC32.Cpp
+  ClientManager.cpp
+  CriticalSection.cpp
+  FileDownloadHTTP.cpp
+  FileDownloadURL.cpp
+  HackServer.cpp
+  HackServerProtocol.cpp
+  HidManager.cpp
+  IpManager.cpp
+  Log.cpp
+  MemScript.cpp
+  MiniDump.cpp
+  ProcessManager.cpp
+  Queue.cpp
+  ReadFiles.cpp
+  ServerDisplayer.cpp
+  ServerInfo.cpp
+  Compiling...
+  SocketManager.cpp
+  Util.cpp
+  Generating code
+  Finished generating code
+  HackServer.vcxproj -> E:\thoung\Server 6.4.0 - Backup\MHP\HackServer\Release\MHPServer.exe

@@ -1,0 +1,136 @@
+﻿Build started 11/3/2018 2:11:51 PM.
+     1>Project "D:\MU\Dev\MuEmu\603\MHP\HackServer2\HackServer\HackServer.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\\HackServer.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\\HackServer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\\MHPServer.pch" /Fo"Release\\" /Fd"Release\\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\mu\dev\muemu\603\mhp\hackserver2\hackserver\Protect.h(26): warning C4005: 'SMART_GET_VERSION' : macro redefinition
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winioctl.h(1581) : see previous definition of 'SMART_GET_VERSION'
+     1>d:\mu\dev\muemu\603\mhp\hackserver2\hackserver\Protect.h(27): warning C4005: 'SMART_RCV_DRIVE_DATA' : macro redefinition
+                 c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winioctl.h(1583) : see previous definition of 'SMART_RCV_DRIVE_DATA'
+     1>d:\mu\dev\muemu\603\mhp\hackserver2\hackserver\Protect.h(166): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(85) : see declaration of 'swprintf'
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Util\pugixml\pugixml.cpp
+         pugixml.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\\MHPServer.pch" /Fo"Release\\" /Fd"Release\\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AntiFloodSystem.cpp Authenticate.cpp BlackList.cpp CCRC32.Cpp ClientManager.cpp CriticalSection.cpp FileDownloadHTTP.cpp FileDownloadURL.cpp HackServer.cpp HackServerProtocol.cpp happyhttp.cpp HidManager.cpp IpManager.cpp Log.cpp MemScript.cpp MiniDump.cpp ProcessManager.cpp Queue.cpp ReadFiles.cpp ScreenShow.cpp ServerDisplayer.cpp ServerInfo.cpp sha1.cpp SocketManager.cpp Util.cpp
+         AntiFloodSystem.cpp
+     1>AntiFloodSystem.cpp(15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>AntiFloodSystem.cpp(141): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>AntiFloodSystem.cpp(173): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>AntiFloodSystem.cpp(185): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+         Authenticate.cpp
+         BlackList.cpp
+         CCRC32.Cpp
+         ClientManager.cpp
+         CriticalSection.cpp
+         FileDownloadHTTP.cpp
+         FileDownloadURL.cpp
+         HackServer.cpp
+     1>HackServer.cpp(269): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>HackServer.cpp(270): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>HackServer.cpp(290): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>HackServer.cpp(306): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>HackServer.cpp(336): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>HackServer.cpp(337): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>HackServer.cpp(350): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>HackServer.cpp(382): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>HackServer.cpp(399): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>HackServer.cpp(400): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>HackServer.cpp(408): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>HackServer.cpp(409): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>HackServer.cpp(449): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>HackServer.cpp(475): warning C4101: 'old' : unreferenced local variable
+     1>HackServer.cpp(474): warning C4101: 'paint' : unreferenced local variable
+     1>HackServer.cpp(475): warning C4101: 'old1' : unreferenced local variable
+         HackServerProtocol.cpp
+         happyhttp.cpp
+     1>happyhttp.cpp(229): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_vsnprintf'
+     1>happyhttp.cpp(380): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>happyhttp.cpp(404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         HidManager.cpp
+         IpManager.cpp
+         Log.cpp
+         MemScript.cpp
+         MiniDump.cpp
+         ProcessManager.cpp
+         Queue.cpp
+         ReadFiles.cpp
+         ScreenShow.cpp
+     1>ScreenShow.cpp(111): warning C4018: '>=' : signed/unsigned mismatch
+     1>ScreenShow.cpp(235): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(85) : see declaration of 'swprintf'
+     1>ScreenShow.cpp(236): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(85) : see declaration of 'swprintf'
+         Compiling...
+         ServerDisplayer.cpp
+         ServerInfo.cpp
+         sha1.cpp
+         SocketManager.cpp
+         Util.cpp
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\\HackServer.res" HackServer.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MU\Dev\MuEmu\603\MHP\HackServer2\Release\MHPServer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\\MHPServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\MU\Dev\MuEmu\603\MHP\HackServer2\Release\MHPServer.pdb" /MAP /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MU\Dev\MuEmu\603\MHP\HackServer2\Release\MHPServer.lib" /MACHINE:X86 Release\\HackServer.res
+         Release\\pugixml.obj
+         Release\\AntiFloodSystem.obj
+         Release\\Authenticate.obj
+         Release\\BlackList.obj
+         Release\\CCRC32.obj
+         Release\\ClientManager.obj
+         Release\\CriticalSection.obj
+         Release\\FileDownloadHTTP.obj
+         Release\\FileDownloadURL.obj
+         Release\\HackServer.obj
+         Release\\HackServerProtocol.obj
+         Release\\happyhttp.obj
+         Release\\HidManager.obj
+         Release\\IpManager.obj
+         Release\\Log.obj
+         Release\\MemScript.obj
+         Release\\MiniDump.obj
+         Release\\ProcessManager.obj
+         Release\\Queue.obj
+         Release\\ReadFiles.obj
+         Release\\ScreenShow.obj
+         Release\\ServerDisplayer.obj
+         Release\\ServerInfo.obj
+         Release\\sha1.obj
+         Release\\SocketManager.obj
+         Release\\stdafx.obj
+         Release\\Util.obj
+         Generating code
+         Finished generating code
+         HackServer.vcxproj -> D:\MU\Dev\MuEmu\603\MHP\HackServer2\Release\MHPServer.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\MU\Dev\MuEmu\603\MHP\HackServer2\Release\MHPServer.exe;#1" /manifest Release\\MHPServer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\\HackServer.unsuccessfulbuild".
+         Touching "Release\\HackServer.lastbuildstate".
+     1>Done Building Project "D:\MU\Dev\MuEmu\603\MHP\HackServer2\HackServer\HackServer.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.31

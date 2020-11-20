@@ -1,0 +1,21 @@
+﻿  stdafx.cpp
+  MD5.cpp
+  AccountManager.cpp
+  AllowableIpList.cpp
+  CriticalSection.cpp
+  JoinServer.cpp
+  JoinServerProtocol.cpp
+  Log.cpp
+  MemScript.cpp
+  MiniDump.cpp
+  Protect.cpp
+  QueryManager.cpp
+  Queue.cpp
+  ServerDisplayer.cpp
+  ServerManager.cpp
+  SocketManager.cpp
+  SocketManagerUdp.cpp
+  Util.cpp
+  Generating code
+  Finished generating code
+  JoinServer.vcxproj -> E:\thoung\Server 6.4.0 - Backup\eMU\JoinServer\Release\JoinServer_EX603\JoinServer.exe

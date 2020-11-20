@@ -1,0 +1,28 @@
+;==================================================
+; Shadow Phantom Soldier
+;==================================================
+[NPC1]
+SetID	=	9
+WingID	=	180
+FirstWeaponType		=	2
+FirstWeaponIndex	=	22
+SecondWeaponType	=	2
+SecondWeaponIndex	=	22
+
+;==================================================
+; Guard 1 (Monster ID 229)
+;==================================================
+[NPC2]
+SetID	=	8
+WeaponType	=	3
+WeaponIndex	=	7
+
+;==================================================
+; Guard 2 (Monster ID 247/249)
+;==================================================
+[NPC3]
+SetID	=	8
+247WeaponType	=	4
+247WeaponIndex	=	11
+249WeaponType	=	3
+249WeaponIndex	=	7

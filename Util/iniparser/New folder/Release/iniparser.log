@@ -1,0 +1,36 @@
+﻿Build started 6/6/2018 1:13:53 AM.
+     1>Project "F:\MU\Dev\MuEmu\603\Util\iniparser\New folder\iniparser.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Creating "Release\iniparser.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt include\dictionary.c include\iniparser.c
+         dictionary.c
+         iniparser.c
+     1>include\iniparser.c(307): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>include\iniparser.c(655): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>include\iniparser.c(660): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>include\iniparser.c(666): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>include\iniparser.c(680): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>include\iniparser.c(732): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>include\iniparser.c(791): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"F:\MU\Dev\MuEmu\603\Util\iniparser\New folder\Release\iniparser.lib" /NOLOGO Release\dictionary.obj
+         Release\iniparser.obj
+         iniparser.vcxproj -> F:\MU\Dev\MuEmu\603\Util\iniparser\New folder\Release\iniparser.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\iniparser.unsuccessfulbuild".
+         Touching "Release\iniparser.lastbuildstate".
+     1>Done Building Project "F:\MU\Dev\MuEmu\603\Util\iniparser\New folder\iniparser.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.83

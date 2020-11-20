@@ -1,0 +1,24 @@
+﻿  stdafx.cpp
+  AuthServer.cpp
+  ClientManager.cpp
+  CriticalSection.cpp
+  MiniDump.cpp
+  ProtocolCore.cpp
+  QueryManager.cpp
+QueryManager.cpp(102): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+QueryManager.cpp(158): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+QueryManager.cpp(173): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+QueryManager.cpp(211): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+QueryManager.cpp(228): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+QueryManager.cpp(258): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+  Queue.cpp
+  SocketServer.cpp
+  Util.cpp
+  Generating code
+  Finished generating code
+  AuthServer.vcxproj -> E:\thoung\Server 6.4.0 - Backup\MHP\AuthServer\Release\AuthServer.exe

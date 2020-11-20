@@ -1,0 +1,85 @@
+#include "stdafx.h"
+#include "CustomSmoke.h"
+#include "MemScript.h"
+
+cCustomSmoker gCustomSmoker; 
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+cCustomSmoker::cCustomSmoker() // OK
+{
+	this->Init();
+}
+
+cCustomSmoker::~cCustomSmoker() // OK
+{
+
+}
+void cCustomSmoker::Init()
+{
+	for(int n=0;n < MAX_ITEM_SMOKER;n++)
+	{
+		this->m_ItemSmokerInfo[n].Index = -1;
+	}
+}
+void cCustomSmoker::Load(char* path) // OK
+{
+	CMemScript* lpMemScript = new CMemScript;
+
+	if(lpMemScript == 0)
+	{
+		printf(MEM_SCRIPT_ALLOC_ERROR,path);
+		return;
+	}
+
+	if(lpMemScript->SetBuffer(path) == 0)
+	{
+		printf(lpMemScript->GetLastError());
+		delete lpMemScript;
+		return;
+	}
+
+	this->Init();
+
+	try
+	{
+		while(true)
+		{
+			if(lpMemScript->GetToken() == TOKEN_END)
+			{
+				break;
+			}
+
+			if(strcmp("end",lpMemScript->GetString()) == 0)
+			{
+				break;
+			}
+
+			CUSTOM_SMOKER_INFO info;
+			memset(&info,0,sizeof(info));
+			static int CustomSmokerIndexCount = 0;
+			info.Index = CustomSmokerIndexCount++;
+			info.ID = lpMemScript->GetNumber();
+			info.R = lpMemScript->GetAsFloatNumber();
+			info.G = lpMemScript->GetAsFloatNumber();
+			info.B = lpMemScript->GetAsFloatNumber();
+			this->SetInfo(info);
+		}
+	}
+	catch(...)
+	{
+		printf(lpMemScript->GetLastError());
+	}
+
+	delete lpMemScript;
+}
+void cCustomSmoker::SetInfo(CUSTOM_SMOKER_INFO info) // OK
+{
+	if(info.Index < 0 || info.Index >= MAX_ITEM_SMOKER)
+	{
+		return;
+	}
+
+	this->m_ItemSmokerInfo[info.Index] = info;
+}

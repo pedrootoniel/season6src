@@ -1,0 +1,68 @@
+﻿Build started 11/3/2018 1:42:14 PM.
+     1>Project "D:\MU\Dev\MuEmu\603\eMU\ConnectServer\ConnectServer\ConnectServer.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\ConnectServer_EX603\ConnectServer.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\ConnectServer_EX603\ConnectServer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D CONNECTSERVER_UPDATE=603 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\ConnectServer_EX603\ConnectServer.pch" /Fo"Release\ConnectServer_EX603\\" /Fd"Release\ConnectServer_EX603\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D CONNECTSERVER_UPDATE=603 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\ConnectServer_EX603\ConnectServer.pch" /Fo"Release\ConnectServer_EX603\\" /Fd"Release\ConnectServer_EX603\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AntiFloodSystem.cpp ClientManager.cpp ConnectServer.cpp ConnectServerProtocol.cpp CriticalSection.cpp IpManager.cpp Log.cpp MemScript.cpp MiniDump.cpp Protect.cpp Queue.cpp ServerDisplayer.cpp ServerList.cpp SocketManager.cpp SocketManagerUdp.cpp Util.cpp
+         AntiFloodSystem.cpp
+     1>AntiFloodSystem.cpp(15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>AntiFloodSystem.cpp(143): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>AntiFloodSystem.cpp(175): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : see declaration of 'stricmp'
+     1>AntiFloodSystem.cpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+         ClientManager.cpp
+         ConnectServer.cpp
+         ConnectServerProtocol.cpp
+         CriticalSection.cpp
+         IpManager.cpp
+         Log.cpp
+         MemScript.cpp
+         MiniDump.cpp
+         Protect.cpp
+         Queue.cpp
+         ServerDisplayer.cpp
+         ServerList.cpp
+         SocketManager.cpp
+         SocketManagerUdp.cpp
+         Util.cpp
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\ConnectServer_EX603\ConnectServer.res" ConnectServer.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MU\Dev\MuEmu\603\eMU\ConnectServer\Release\ConnectServer_EX603\ConnectServer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ConnectServer_EX603\ConnectServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\MU\Dev\MuEmu\603\eMU\ConnectServer\Release\ConnectServer_EX603\ConnectServer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MU\Dev\MuEmu\603\eMU\ConnectServer\Release\ConnectServer_EX603\ConnectServer.lib" /MACHINE:X86 Release\ConnectServer_EX603\ConnectServer.res
+         Release\ConnectServer_EX603\AntiFloodSystem.obj
+         Release\ConnectServer_EX603\ClientManager.obj
+         Release\ConnectServer_EX603\ConnectServer.obj
+         Release\ConnectServer_EX603\ConnectServerProtocol.obj
+         Release\ConnectServer_EX603\CriticalSection.obj
+         Release\ConnectServer_EX603\IpManager.obj
+         Release\ConnectServer_EX603\Log.obj
+         Release\ConnectServer_EX603\MemScript.obj
+         Release\ConnectServer_EX603\MiniDump.obj
+         Release\ConnectServer_EX603\Protect.obj
+         Release\ConnectServer_EX603\Queue.obj
+         Release\ConnectServer_EX603\ServerDisplayer.obj
+         Release\ConnectServer_EX603\ServerList.obj
+         Release\ConnectServer_EX603\SocketManager.obj
+         Release\ConnectServer_EX603\SocketManagerUdp.obj
+         Release\ConnectServer_EX603\stdafx.obj
+         Release\ConnectServer_EX603\Util.obj
+         Generating code
+         Finished generating code
+         ConnectServer.vcxproj -> D:\MU\Dev\MuEmu\603\eMU\ConnectServer\Release\ConnectServer_EX603\ConnectServer.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\MU\Dev\MuEmu\603\eMU\ConnectServer\Release\ConnectServer_EX603\ConnectServer.exe;#1" /manifest Release\ConnectServer_EX603\ConnectServer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\ConnectServer_EX603\ConnectServer.unsuccessfulbuild".
+         Touching "Release\ConnectServer_EX603\ConnectServer.lastbuildstate".
+     1>Done Building Project "D:\MU\Dev\MuEmu\603\eMU\ConnectServer\ConnectServer\ConnectServer.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.92

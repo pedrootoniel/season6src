@@ -1,0 +1,27 @@
+﻿  stdafx.cpp
+  Util.cpp
+  SocketManagerUdp.cpp
+  SocketManager.cpp
+  ServerList.cpp
+  ServerDisplayer.cpp
+  Queue.cpp
+  Protect.cpp
+  MiniDump.cpp
+  MemScript.cpp
+  Log.cpp
+  IpManager.cpp
+  CriticalSection.cpp
+  ConnectServerProtocol.cpp
+  ConnectServer.cpp
+  ClientManager.cpp
+  AntiFloodSystem.cpp
+e:\thoung\server 6.4.0 - backup\emu\connectserver\connectserver\antifloodsystem.cpp(15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+e:\thoung\server 6.4.0 - backup\emu\connectserver\connectserver\antifloodsystem.cpp(143): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+e:\thoung\server 6.4.0 - backup\emu\connectserver\connectserver\antifloodsystem.cpp(175): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(246) : see declaration of 'stricmp'
+e:\thoung\server 6.4.0 - backup\emu\connectserver\connectserver\antifloodsystem.cpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+  Generating Code...
+  ConnectServer.vcxproj -> E:\thoung\Server 6.4.0 - Backup\eMU\ConnectServer\Debug\ConnectServer.exe

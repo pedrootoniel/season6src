@@ -1,0 +1,44 @@
+﻿Build started 1/14/2019 8:00:59 AM.
+     1>Project "D:\MU\Dev\MuEmu\603\MHP\HackServer_0ld\HackServer\HackServer.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\HackServer.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Release\HackServer.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\MHPServer.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\MHPServer.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Authenticate.cpp BlackList.cpp CCRC32.Cpp ClientManager.cpp CriticalSection.cpp FileDownloadHTTP.cpp FileDownloadURL.cpp HackServer.cpp HackServerProtocol.cpp HidManager.cpp IpManager.cpp Log.cpp MemScript.cpp MiniDump.cpp ProcessManager.cpp Queue.cpp ReadFiles.cpp ScreenShow.cpp ServerDisplayer.cpp ServerInfo.cpp SocketManager.cpp Util.cpp
+         Authenticate.cpp
+         BlackList.cpp
+         CCRC32.Cpp
+         ClientManager.cpp
+         CriticalSection.cpp
+         FileDownloadHTTP.cpp
+         FileDownloadURL.cpp
+         HackServer.cpp
+     1>HackServer.cpp(134): error C2065: 'Screen' : undeclared identifier
+         HackServerProtocol.cpp
+         HidManager.cpp
+         IpManager.cpp
+         Log.cpp
+         MemScript.cpp
+         MiniDump.cpp
+         ProcessManager.cpp
+         Queue.cpp
+         ReadFiles.cpp
+         ScreenShow.cpp
+     1>ScreenShow.cpp(111): warning C4018: '>=' : signed/unsigned mismatch
+     1>ScreenShow.cpp(235): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(85) : see declaration of 'swprintf'
+     1>ScreenShow.cpp(236): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(85) : see declaration of 'swprintf'
+         ServerDisplayer.cpp
+         ServerInfo.cpp
+         Compiling...
+         SocketManager.cpp
+         Util.cpp
+     1>Done Building Project "D:\MU\Dev\MuEmu\603\MHP\HackServer_0ld\HackServer\HackServer.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.82

@@ -1,0 +1,779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Util Files">
+      <UniqueIdentifier>{2d98712e-7860-4e76-a39c-e80cf261b364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PostItem">
+      <UniqueIdentifier>{67010b1e-e627-40df-8930-cdd6332d113c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MathLib">
+      <UniqueIdentifier>{909635a9-22af-4b9b-bd84-23746f553d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{848c81a3-ed10-469a-ac40-72d5f83e9018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Text">
+      <UniqueIdentifier>{b610dbed-8ab5-4789-bd85-8f3c42c12780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pets">
+      <UniqueIdentifier>{aaf3a2d3-747a-439b-a110-2f6c99ff98f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Title">
+      <UniqueIdentifier>{95770e97-1a1f-449c-b7e8-f73425129f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SmithItem">
+      <UniqueIdentifier>{1f9d4ea7-2f65-4059-a6bc-f26bbc1f0efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\License">
+      <UniqueIdentifier>{0fe99911-0ac9-4fb1-b3e6-5c135eed4a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PartySearch">
+      <UniqueIdentifier>{d0fe3dca-31be-41af-b745-7ec5c6cddf73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zCustomJewel">
+      <UniqueIdentifier>{7b51671c-d1f9-41a8-a413-00b7ad4504d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LTPCustom">
+      <UniqueIdentifier>{0f345951-d09a-44b9-98dc-1111cbf4ceca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LTPCustom\InfoLog">
+      <UniqueIdentifier>{5d1116ea-626f-4568-91ff-bcfad61f8d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lua">
+      <UniqueIdentifier>{23af6ccf-4c43-4b4a-92e7-f58b696b3fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LTPCustom\HPBar">
+      <UniqueIdentifier>{269a5258-2901-4e85-b491-35b4753aba27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShopSearch">
+      <UniqueIdentifier>{855ee709-b0f1-4456-9b93-84849004bfc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ranking">
+      <UniqueIdentifier>{5c109df1-c85d-4a0b-97b4-ee5e8de19d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MonsterNameColor">
+      <UniqueIdentifier>{c47ed4ab-12a0-4f62-8ba3-a7117111cccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ItemOption">
+      <UniqueIdentifier>{fdbb56b9-945f-47ff-9636-474f50eb62f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LTPCustom\RFGloves">
+      <UniqueIdentifier>{65d69057-2f98-4531-b5a2-3d369a59d5de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Minimap">
+      <UniqueIdentifier>{4272a4d8-c9dc-426b-a350-c1cdd8ee1ae9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="AddressTable1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AddressTable2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AddressTable3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mu.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Protect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Util\CCRC32.H">
+      <Filter>Util Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HackCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomWing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomJewel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reconnect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WingEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WingBright.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomBow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Other.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WingInvisible.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Import.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMonster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inter3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TMemory.h">
+      <Filter>Source Files\PostItem</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fenrir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zzzmathlib.h">
+      <Filter>Source Files\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Source Files\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="PetProtocol.h">
+      <Filter>Source Files\Pets</Filter>
+    </ClInclude>
+    <ClInclude Include="MemScript.h">
+      <Filter>Util Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DanhHieu.h">
+      <Filter>Source Files\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RFGloves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomSmoke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSmoke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomTitle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomPet.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="item_post.h">
+      <Filter>Source Files\PostItem</Filter>
+    </ClInclude>
+    <ClInclude Include="linked_list.h">
+      <Filter>Source Files\PostItem</Filter>
+    </ClInclude>
+    <ClInclude Include="macro.h">
+      <Filter>Source Files\PostItem</Filter>
+    </ClInclude>
+    <ClInclude Include="mu_object_chat_data.h">
+      <Filter>Source Files\PostItem</Filter>
+    </ClInclude>
+    <ClInclude Include="mu_object_item_data.h">
+      <Filter>Source Files\PostItem</Filter>
+    </ClInclude>
+    <ClInclude Include="post_item.h">
+      <Filter>Source Files\PostItem</Filter>
+    </ClInclude>
+    <ClInclude Include="SmithItem.h">
+      <Filter>Source Files\SmithItem</Filter>
+    </ClInclude>
+    <ClInclude Include="CSmithItem.h">
+      <Filter>Source Files\SmithItem</Filter>
+    </ClInclude>
+    <ClInclude Include="LicenseInfo.h">
+      <Filter>Source Files\License</Filter>
+    </ClInclude>
+    <ClInclude Include="PartySearch.h">
+      <Filter>Source Files\PartySearch</Filter>
+    </ClInclude>
+    <ClInclude Include="PartySearchSettings.h">
+      <Filter>Source Files\PartySearch</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelEffect.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zCustomJewel.h">
+      <Filter>Source Files\zCustomJewel</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemPrice.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="Smithy.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoLog.h">
+      <Filter>Source Files\LTPCustom\InfoLog</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaExport.h">
+      <Filter>Source Files\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="MuLua.h">
+      <Filter>Source Files\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="WinConsole.h">
+      <Filter>Source Files\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="NewParty.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="PartyBuffs.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffIcon.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="NewFog.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>Source Files\LTPCustom\HPBar</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterBar.h">
+      <Filter>Source Files\LTPCustom\HPBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Util Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HWID.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="OfflineMode.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterList.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeClass.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="BuyVip.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedFix.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPanel.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="NewInterface.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="EventEntryLevel.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopSearch.h">
+      <Filter>Source Files\ShopSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranking.h">
+      <Filter>Source Files\Ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="RankingEx.h">
+      <Filter>Source Files\Ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="MuHelper.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="NewsBoard.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterNameColor.h">
+      <Filter>Source Files\MonsterNameColor</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemOption.h">
+      <Filter>Source Files\ItemOption</Filter>
+    </ClInclude>
+    <ClInclude Include="LuckySpin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomWeapons.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemPosition.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="BowCrossbow.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomGloves.h">
+      <Filter>Source Files\LTPCustom\RFGloves</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleGloves.h">
+      <Filter>Source Files\LTPCustom\RFGloves</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTimer.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimap.h">
+      <Filter>Source Files\Minimap</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCharacter.h">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LargeRand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HackCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Protect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Util\CCRC32.Cpp">
+      <Filter>Util Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomWing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomJewel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reconnect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WingEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WingBright.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomBow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Other.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WingInvisible.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMonster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TMemory.cpp">
+      <Filter>Source Files\PostItem</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fenrir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zzzmathlib.cpp">
+      <Filter>Source Files\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="PetProtocol.cpp">
+      <Filter>Source Files\Pets</Filter>
+    </ClCompile>
+    <ClCompile Include="MemScript.cpp">
+      <Filter>Util Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DanhHieu.cpp">
+      <Filter>Source Files\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="RFGloves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomSmoke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSmoke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomTitle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomPet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="post_item.cpp">
+      <Filter>Source Files\PostItem</Filter>
+    </ClCompile>
+    <ClCompile Include="SmithItem.cpp">
+      <Filter>Source Files\SmithItem</Filter>
+    </ClCompile>
+    <ClCompile Include="CSmithItem.cpp">
+      <Filter>Source Files\SmithItem</Filter>
+    </ClCompile>
+    <ClCompile Include="LicenseInfo.cpp">
+      <Filter>Source Files\License</Filter>
+    </ClCompile>
+    <ClCompile Include="PartySearch.cpp">
+      <Filter>Source Files\PartySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="PartySearchSettings.cpp">
+      <Filter>Source Files\PartySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zCustomJewel.cpp">
+      <Filter>Source Files\zCustomJewel</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemPrice.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="Smithy.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoLog.cpp">
+      <Filter>Source Files\LTPCustom\InfoLog</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaExport.cpp">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="MuLua.cpp">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="WinConsole.cpp">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="NewParty.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="PartyBuffs.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffIcon.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="NewFog.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>Source Files\LTPCustom\HPBar</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterBar.cpp">
+      <Filter>Source Files\LTPCustom\HPBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Util Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HWID.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="OfflineMode.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterList.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeClass.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="BuyVip.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedFix.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPanel.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="NewInterface.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="EventEntryLevel.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopSearch.cpp">
+      <Filter>Source Files\ShopSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranking.cpp">
+      <Filter>Source Files\Ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="RankingEx.cpp">
+      <Filter>Source Files\Ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="MuHelper.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="NewsBoard.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterNameColor.cpp">
+      <Filter>Source Files\MonsterNameColor</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemOption.cpp">
+      <Filter>Source Files\ItemOption</Filter>
+    </ClCompile>
+    <ClCompile Include="LuckySpin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomWeapons.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemPosition.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="BowCrossbow.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomGloves.cpp">
+      <Filter>Source Files\LTPCustom\RFGloves</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleGloves.cpp">
+      <Filter>Source Files\LTPCustom\RFGloves</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTimer.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="Minimap.cpp">
+      <Filter>Source Files\Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCharacter.cpp">
+      <Filter>Source Files\LTPCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LargeRand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

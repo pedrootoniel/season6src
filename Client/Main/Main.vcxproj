@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8CEE92DB-9F87-4658-9B58-215C7319C44E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Main</RootNamespace>
+    <ProjectName>Main</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+    <UseOfMfc />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;MAIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;cg.lib;cgGL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;MAIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>MaxSpeed</Optimization>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;cg.lib;cgGL.lib;Glaux.lib;glut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="AddressTable1.bin" />
+    <None Include="AddressTable2.bin" />
+    <None Include="AddressTable3.bin" />
+    <None Include="icon1.ico" />
+    <None Include="mu.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Util\CCRC32.H" />
+    <ClInclude Include="allocator.h" />
+    <ClInclude Include="array.h" />
+    <ClInclude Include="base.h" />
+    <ClInclude Include="BattleGloves.h" />
+    <ClInclude Include="BowCrossbow.h" />
+    <ClInclude Include="BuffIcon.h" />
+    <ClInclude Include="BuyVip.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="ChangeClass.h" />
+    <ClInclude Include="CharacterList.h" />
+    <ClInclude Include="ChatWindow.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Controller2.h" />
+    <ClInclude Include="CopyEffect.h" />
+    <ClInclude Include="CreateEffect.h" />
+    <ClInclude Include="CSmithItem.h" />
+    <ClInclude Include="CustomBow.h" />
+    <ClInclude Include="CustomFog.h" />
+    <ClInclude Include="CustomGloves.h" />
+    <ClInclude Include="CustomItem.h" />
+    <ClInclude Include="CustomJewel.h" />
+    <ClInclude Include="CustomMessage.h" />
+    <ClInclude Include="CustomMonster.h" />
+    <ClInclude Include="CustomPet.h" />
+    <ClInclude Include="CustomSocket.h" />
+    <ClInclude Include="CustomTitle.h" />
+    <ClInclude Include="CustomWeapons.h" />
+    <ClInclude Include="CustomWing.h" />
+    <ClInclude Include="CustomSmoke.h" />
+    <ClInclude Include="EventEntryLevel.h" />
+    <ClInclude Include="EventTimer.h" />
+    <ClInclude Include="HealthBar.h" />
+    <ClInclude Include="HWID.h" />
+    <ClInclude Include="InfoLog.h" />
+    <ClInclude Include="ItemOption.h" />
+    <ClInclude Include="ItemPosition.h" />
+    <ClInclude Include="ItemPrice.h" />
+    <ClInclude Include="ItemSmoke.h" />
+    <ClInclude Include="item_post.h" />
+    <ClInclude Include="LargeRand.h" />
+    <ClInclude Include="LicenseInfo.h" />
+    <ClInclude Include="linked_list.h" />
+    <ClInclude Include="LuaExport.h" />
+    <ClInclude Include="LuckySpin.h" />
+    <ClInclude Include="macro.h" />
+    <ClInclude Include="Minimap.h" />
+    <ClInclude Include="ModelEffect.h" />
+    <ClInclude Include="MonsterBar.h" />
+    <ClInclude Include="MonsterNameColor.h" />
+    <ClInclude Include="MuHelper.h" />
+    <ClInclude Include="MuLua.h" />
+    <ClInclude Include="mu_object_chat_data.h" />
+    <ClInclude Include="mu_object_item_data.h" />
+    <ClInclude Include="NewCharacter.h" />
+    <ClInclude Include="NewFog.h" />
+    <ClInclude Include="NewInterface.h" />
+    <ClInclude Include="NewParty.h" />
+    <ClInclude Include="NewsBoard.h" />
+    <ClInclude Include="OfflineMode.h" />
+    <ClInclude Include="PartyBuffs.h" />
+    <ClInclude Include="PartySearch.h" />
+    <ClInclude Include="PartySearchSettings.h" />
+    <ClInclude Include="post_item.h" />
+    <ClInclude Include="Ranking.h" />
+    <ClInclude Include="RankingEx.h" />
+    <ClInclude Include="ShopSearch.h" />
+    <ClInclude Include="SmithItem.h" />
+    <ClInclude Include="Smithy.h" />
+    <ClInclude Include="SpeedFix.h" />
+    <ClInclude Include="StaticEffect.h" />
+    <ClInclude Include="DanhHieu.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="DynamicEffect.h" />
+    <ClInclude Include="Fenrir.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="HackCheck.h" />
+    <ClInclude Include="HealthBar2.h" />
+    <ClInclude Include="Import.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="Inter3.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="MemScript.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="LoadMap.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="NewFont.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Offset.h" />
+    <ClInclude Include="Other.h" />
+    <ClInclude Include="PacketManager.h" />
+    <ClInclude Include="Pet.h" />
+    <ClInclude Include="PetHook.h" />
+    <ClInclude Include="PetProtocol.h" />
+    <ClInclude Include="PrintPlayer.h" />
+    <ClInclude Include="Protect.h" />
+    <ClInclude Include="Protocol.h" />
+    <ClInclude Include="range.h" />
+    <ClInclude Include="ReadScript.h" />
+    <ClInclude Include="Reconnect.h" />
+    <ClInclude Include="Resolution.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RFGloves.h" />
+    <ClInclude Include="SocketItem.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TMemory.h" />
+    <ClInclude Include="TrayMode.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="UserPanel.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="WinConsole.h" />
+    <ClInclude Include="WingBright.h" />
+    <ClInclude Include="WingEffect.h" />
+    <ClInclude Include="WingInvisible.h" />
+    <ClInclude Include="zCustomJewel.h" />
+    <ClInclude Include="zzzmathlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Util\CCRC32.Cpp" />
+    <ClCompile Include="BattleGloves.cpp" />
+    <ClCompile Include="BowCrossbow.cpp" />
+    <ClCompile Include="BuffIcon.cpp" />
+    <ClCompile Include="BuyVip.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="ChangeClass.cpp" />
+    <ClCompile Include="CharacterList.cpp" />
+    <ClCompile Include="ChatWindow.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Controller2.cpp" />
+    <ClCompile Include="CopyEffect.cpp" />
+    <ClCompile Include="CreateEffect.cpp" />
+    <ClCompile Include="CSmithItem.cpp" />
+    <ClCompile Include="CustomBow.cpp" />
+    <ClCompile Include="CustomFog.cpp" />
+    <ClCompile Include="CustomGloves.cpp" />
+    <ClCompile Include="CustomItem.cpp" />
+    <ClCompile Include="CustomJewel.cpp" />
+    <ClCompile Include="CustomMessage.cpp" />
+    <ClCompile Include="CustomMonster.cpp" />
+    <ClCompile Include="CustomPet.cpp" />
+    <ClCompile Include="CustomSocket.cpp" />
+    <ClCompile Include="CustomTitle.cpp" />
+    <ClCompile Include="CustomWeapons.cpp" />
+    <ClCompile Include="CustomWing.cpp" />
+    <ClCompile Include="CustomSmoke.cpp" />
+    <ClCompile Include="EventEntryLevel.cpp" />
+    <ClCompile Include="EventTimer.cpp" />
+    <ClCompile Include="HealthBar.cpp" />
+    <ClCompile Include="HWID.cpp" />
+    <ClCompile Include="InfoLog.cpp" />
+    <ClCompile Include="ItemOption.cpp" />
+    <ClCompile Include="ItemPosition.cpp" />
+    <ClCompile Include="ItemPrice.cpp" />
+    <ClCompile Include="ItemSmoke.cpp" />
+    <ClCompile Include="LargeRand.cpp" />
+    <ClCompile Include="LicenseInfo.cpp" />
+    <ClCompile Include="LuaExport.cpp" />
+    <ClCompile Include="LuckySpin.cpp" />
+    <ClCompile Include="Minimap.cpp" />
+    <ClCompile Include="ModelEffect.cpp" />
+    <ClCompile Include="MonsterBar.cpp" />
+    <ClCompile Include="MonsterNameColor.cpp" />
+    <ClCompile Include="MuHelper.cpp" />
+    <ClCompile Include="MuLua.cpp" />
+    <ClCompile Include="NewCharacter.cpp" />
+    <ClCompile Include="NewFog.cpp" />
+    <ClCompile Include="NewInterface.cpp" />
+    <ClCompile Include="NewParty.cpp" />
+    <ClCompile Include="NewsBoard.cpp" />
+    <ClCompile Include="OfflineMode.cpp" />
+    <ClCompile Include="PartyBuffs.cpp" />
+    <ClCompile Include="PartySearch.cpp" />
+    <ClCompile Include="PartySearchSettings.cpp" />
+    <ClCompile Include="post_item.cpp" />
+    <ClCompile Include="Ranking.cpp" />
+    <ClCompile Include="RankingEx.cpp" />
+    <ClCompile Include="ShopSearch.cpp" />
+    <ClCompile Include="SmithItem.cpp" />
+    <ClCompile Include="Smithy.cpp" />
+    <ClCompile Include="SpeedFix.cpp" />
+    <ClCompile Include="StaticEffect.cpp" />
+    <ClCompile Include="DanhHieu.cpp" />
+    <ClCompile Include="DynamicEffect.cpp" />
+    <ClCompile Include="Fenrir.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="HackCheck.cpp" />
+    <ClCompile Include="HealthBar2.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="Inter3.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="LoadMap.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MemScript.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="NewFont.cpp" />
+    <ClCompile Include="Other.cpp" />
+    <ClCompile Include="PacketManager.cpp" />
+    <ClCompile Include="Pet.cpp" />
+    <ClCompile Include="PetHook.cpp" />
+    <ClCompile Include="PetProtocol.cpp" />
+    <ClCompile Include="PrintPlayer.cpp" />
+    <ClCompile Include="Protect.cpp" />
+    <ClCompile Include="Protocol.cpp" />
+    <ClCompile Include="Reconnect.cpp" />
+    <ClCompile Include="Resolution.cpp">
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">TurnOffAllWarnings</WarningLevel>
+    </ClCompile>
+    <ClCompile Include="RFGloves.cpp" />
+    <ClCompile Include="SocketItem.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TMemory.cpp" />
+    <ClCompile Include="TrayMode.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserPanel.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="WinConsole.cpp" />
+    <ClCompile Include="WingBright.cpp" />
+    <ClCompile Include="WingEffect.cpp" />
+    <ClCompile Include="WingInvisible.cpp" />
+    <ClCompile Include="zCustomJewel.cpp" />
+    <ClCompile Include="zzzmathlib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

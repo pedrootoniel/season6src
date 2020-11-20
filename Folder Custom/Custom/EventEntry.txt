@@ -1,0 +1,82 @@
+[DevilSquare]
+DS1LevelMin_Normal = 15
+DS1LevelMax_Normal = 130
+
+DS2LevelMin_Normal = 131
+DS2LevelMax_Normal = 180
+
+DS3LevelMin_Normal = 181
+DS3LevelMax_Normal = 230
+
+DS4LevelMin_Normal = 231
+DS4LevelMax_Normal = 280
+
+DS5LevelMin_Normal = 281
+DS5LevelMax_Normal = 330
+
+DS6LevelMin_Normal = 331
+DS6LevelMax_Normal = 400
+
+
+DS1LevelMin_MGDLRF = 10
+DS1LevelMax_MGDLRF = 110
+
+DS2LevelMin_MGDLRF = 111
+DS2LevelMax_MGDLRF = 160
+
+DS3LevelMin_MGDLRF = 161
+DS3LevelMax_MGDLRF = 210
+
+DS4LevelMin_MGDLRF = 211
+DS4LevelMax_MGDLRF = 260
+
+DS5LevelMin_MGDLRF = 261
+DS5LevelMax_MGDLRF = 310
+
+DS6LevelMin_MGDLRF = 311
+DS6LevelMax_MGDLRF = 400
+
+[BloodCastle]
+BC1LevelMin_Normal = 15
+BC1LevelMax_Normal = 80
+
+BC2LevelMin_Normal = 81
+BC2LevelMax_Normal = 130
+
+BC3LevelMin_Normal = 131
+BC3LevelMax_Normal = 180
+
+BC4LevelMin_Normal = 181
+BC4LevelMax_Normal = 230
+
+BC5LevelMin_Normal = 231
+BC5LevelMax_Normal = 280
+
+BC6LevelMin_Normal = 281
+BC6LevelMax_Normal = 330
+
+BC7LevelMin_Normal = 331
+BC7LevelMax_Normal = 400
+
+
+BC1LevelMin_MGDLRF = 10
+BC1LevelMax_MGDLRF = 60
+
+BC2LevelMin_MGDLRF = 61
+BC2LevelMax_MGDLRF = 110
+
+BC3LevelMin_MGDLRF = 111
+BC3LevelMax_MGDLRF = 160
+
+BC4LevelMin_MGDLRF = 161
+BC4LevelMax_MGDLRF = 210
+
+BC5LevelMin_MGDLRF = 211
+BC5LevelMax_MGDLRF = 260
+
+BC6LevelMin_MGDLRF = 261
+BC6LevelMax_MGDLRF = 310
+
+BC7LevelMin_MGDLRF = 311
+BC7LevelMax_MGDLRF = 400
+
